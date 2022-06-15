@@ -1,4 +1,10 @@
-module.exports = {
+// @ts-check
+/**
+ * @type {import('gatsby').GatsbyConfig}
+ */
+import type {GatsbyConfig} from "gatsby"
+
+const config: GatsbyConfig = {
   siteMetadata: {
     title: `Gatsby Starter Blog`,
     author: {
@@ -130,3 +136,5 @@ module.exports = {
     // `gatsby-plugin-offline`,
   ],
 }
+
+export default config
