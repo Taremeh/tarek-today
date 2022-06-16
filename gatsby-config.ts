@@ -6,9 +6,9 @@ import type {GatsbyConfig} from "gatsby"
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Tarek Today`,
     author: {
-      name: `Kyle Mathews`,
+      name: `Tarek Alakmeh`,
       summary: `who lives and works in San Francisco building useful things.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
@@ -119,7 +119,7 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `Tarek Today`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,

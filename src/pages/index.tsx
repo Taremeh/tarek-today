@@ -37,7 +37,7 @@ const BlogIndex = ({ data: {site, allMarkdownRemark}, location }: PageProps<Data
       <Seo title="All posts" />
       <Bio />
       <ol style={{ listStyle: `none` }}>
-        {posts.map(post => {
+        {posts.map((post: any) => {
           const title = post.frontmatter.title || post.fields.slug
 
           return (
