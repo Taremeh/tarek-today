@@ -1,11 +1,37 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
+title: "Combine CSS Animation and :Hover"
+date: "2022-06-16T20:00:00.000Z"
 description: "Hello World"
-tags: ["writing"]
+tags: ["coding"]
 ---
 
-This is my first post on my new fake blog! How exciting!
+Do you have trouble combining a **CSS animation** with **CSS :hover** effects that use **CSS transitions**? Either the animation works or the hover effect, or maybe even both, but then the transition fails when hovering...
+
+<video width="100%" autoplay loop muted>
+    <source src="./tarek-today-nav-final.mp4" type="video/mp4" />
+</video>
+
+```css
+a {
+    animation-name: colorPulse;
+    animation-duration: .6s;
+    transition: all .2s;
+    background-color: var(--background-color-last);
+
+    @keyframes colorPulse {
+      0% {background-color: var(--background-color-last);}
+      50% {background-color:  var(--background-color);}
+      100% {background-color: var(--background-color-last);}
+    }
+
+    &:nth-of-type(1){
+      --background-color: #f2a7b57b;
+      &:hover {
+        background-color: var(--background-color);
+        color: black;
+      }
+    }
+```
 
 I'm sure I'll write a lot more interesting things in the future.
 

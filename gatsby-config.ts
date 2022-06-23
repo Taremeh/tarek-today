@@ -7,6 +7,7 @@ import type {GatsbyConfig} from "gatsby"
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `Tarek Today`,
+    indexPaths: [`/`, `/coding`, `/university`, `/photo`, `/video`, `/writing`,],
     author: {
       name: `Tarek Alakmeh`,
       summary: `who lives and works in San Francisco building useful things.`,

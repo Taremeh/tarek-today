@@ -2,7 +2,7 @@
 /**
  * @type {import('gatsby').GatsbyNode['createPages']}
  */
- import type { GatsbyNode } from "gatsby"
+import type { GatsbyNode } from "gatsby"
 
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
@@ -112,6 +112,7 @@ exports.createSchemaCustomization = ({ actions }: any) => {
       title: String
       description: String
       date: Date @dateformat
+      tags: [String]
     }
 
     type Fields {
