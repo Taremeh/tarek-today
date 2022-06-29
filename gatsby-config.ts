@@ -57,6 +57,12 @@ const config: GatsbyConfig = {
               strict: `ignore`
             }
           },
+          {
+            resolve: `gatsby-remark-image-attributes`,
+            options: {
+              dataAttributes: false // default = false
+            }
+          },
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
