@@ -15,5 +15,6 @@ Use this getting started guide if you don't want to read through 400+ pages of t
 2. Install the **ExperimentBuilder** and the *HASP driver* if your sr-research USB license key dongle is not detected by your computer. 
     - How do you know if the USB license key is working? The physical USB license stick will turn on a weak red LED if plugged into your computer and if working correctly.
 3. Start the **ExperimentBuilder** application
-4. Let's start with a simple example. Go to the menu and select `File > Examples > Simple`. The following graph should appear. You can explore 
+4. Let's start with a simple example. Go to the menu and select `File > Examples > Simple`. The following graph should appear.
 ![](sr-research-experiment-builder-graph-overview.png)
+This is an overview over your experiment setup. 
