@@ -45,7 +45,6 @@ const Layout = ({ location, title, children }: any) => {
             padding: .5em 1em .4em 1em;
             animation-name: ${isIndexPath ? "colorPulse" : "none" };
             animation-duration: .6s;
-            /* animation-direction: reverse; */
             transition: all .2s;
             background-color: var(--background-color-last);
 
