@@ -27,6 +27,11 @@ Use this getting started guide if you don't want to read through 400+ pages of t
 
 Well done! Now let's explore what types of nodes ExperimentBuilder offers:
 
+## Node Types
+- **Action Nodes** (Do/Play/Show something) ![experiment-builder-action-nodes](experiment-builder-action-nodes-crop.png) (displayed in square nodes)
+- **Trigger Nodes** (Wait for input/timer/eye fixation) ![experiment-builder-trigger-nodes](experiment-builder-trigger-nodes.png) (displayed in circle nodes)
+
+
 ## Further Resources
 - Official ExperimentBuilder Tutorial Series:
     - https://www.youtube.com/watch?v=qCMgHiGbWN4&list=PLOdF-B36TwspI-XgKuRC2xFfa768Lsngv
